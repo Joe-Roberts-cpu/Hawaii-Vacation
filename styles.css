@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #FFF27D;
+  padding: 30px 20px;
+  border-radius: 75px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 6px 5px 8px gray;
+    font-size: 47px;
+}
+
+body {
+  background-color: #7F9ED7;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  text-align: center;
+  background-color: #FFF27D;
+  margin: 10px auto;
+  border: 5px solid black;
+  padding: 15px;
+  border-radius: 75px;
+  width: 80%;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.button {
+  display: inline-block;
+  background-color: rgb(1, 188, 251);
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  border: 2px solid black;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #0018A8;
+  transform: scale(1.05);
+}
+
+
+#intro {
+  background: linear-gradient(135deg, rgb(1, 188, 251), darkblue);
+  max-height: 500px;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  color: white;
+  border: 5px double black;
+  border-radius: 20px;
+
+  word-spacing: 2.5px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: "Delius Swash Caps", cursive;
+  overflow-y: auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#about-intro {
+  background: linear-gradient(135deg, rgb(251, 93, 1), rgb(69, 69, 232));
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  color: white;
+  border: 5px double black;
+  border-radius: 20px;
+
+  word-spacing: 2.5px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: "Delius Swash Caps", cursive;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.center {
+    text-align:center;
+}
+
+.footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Libre Baskerville", serif;
+  border-top: 5px solid #FFF27D;
+  margin-top: 50px;
+}
+
+.itinerary-section {
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+.itinerary-section h2 {
+  font-size: 36px;
+  color: #001f3f;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #ff9a03, #06a9f4);
+  color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+  border: 3px double #FFF27D;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  header, nav, .footer, #intro, #about-intro, .itinerary-section {
+    width: 95%;
+    padding: 15px;
+    border-radius: 30px;
+  }
+
+  .button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}
+
+.featured-img {
+  width: 92%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  margin: 20px 4%;
+  border: 5px dashed black;
+}
+
+.contact-form {
+  background-color: #FFF27D;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+  font-family: 'Libre Baskerville', serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 16px;
+}
